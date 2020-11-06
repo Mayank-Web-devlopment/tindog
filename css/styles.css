@@ -1,0 +1,156 @@
+body{
+  font-family:"Montserrat" ;
+}
+h1 {
+font-family: 'Montserrat-black', sans-serif-Black;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: #f4f4f2;
+}
+h2
+{
+font-family: Montserrat-bold;
+
+  line-height: 1.5;
+font-size: 3rem;
+}
+h4{
+  font-family: 'Montserrat-black', sans-serif-Black;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #f4f4f2;
+
+}
+
+p{
+  color:#707070;
+}
+#title{
+  background-color: #ff4c68
+}
+    /* nav bar */
+  .navbar{
+    padding: 0 0 4.5rem;
+  }
+  .nav-items{
+    padding: 0 18px;
+
+  }
+  .nav-link{
+    font-size: 1.2rem;
+    font-family:serif-light;
+      color: #f4f4f2;
+  }
+  .navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+  }
+/* Download button */
+    .Download-button{
+      margin: 5% 3% 5% 0;
+
+    }
+    /* title image */
+    .title-img{
+      width: 50%;
+      transform: rotate(20deg);
+
+    }
+    .col-img{
+      text-align: center;
+    }
+
+
+/* feature section */
+
+
+#features{
+  padding: 7% 15%;
+  background-color:  #f4f4f2;
+}
+.container-fluid{
+
+  padding: 3% 15%;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+color: #ef8172;
+margin-bottom: 1rem;
+  }
+
+.icon:hover{
+  color: #ff4c68;
+}
+ /* Testimonials section */
+ #testimonials {
+   background-color: #ef8172;
+   color: #f4f4f2;
+   text-align: center;
+
+ }
+ .testimonial-image{
+   width: 15%;
+   border-radius: 100%;
+   margin: 5% ;
+ }
+ .carousel-item{
+    padding: 7% 15%;
+ }
+#press{
+  background-color: #ef8172;
+  padding-bottom:   3%;
+  text-align: center;
+
+}
+.press-logo{
+  width: 15%;
+  margin:20px 20px 50px;
+}
+  /* Pricing-section */
+  #pricing{
+    padding: 100px;
+    text-align: center;
+    background-color: #f4f4f2;
+
+  }
+  .pricing-col {
+    padding:3% 2%;
+  }
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    transform: rotate(0);
+    margin-top: 20px;
+
+  }
+
+}
+/* Call to Action  */
+#cta{
+    background-color: #ff4c68;
+  padding: 7% 15%;
+    text-align: center;
+}
+
+/* Footer section */
+#footer{
+background-color: #f4f4f2;
+  padding: 4% 10%;
+      text-align: center;
+}
+
+.contact{
+color: #ef8172;
+margin-bottom: 1rem;
+margin:  2%;
+  }
+
+.contact:hover{
+  color: #ff4c68;
+}
